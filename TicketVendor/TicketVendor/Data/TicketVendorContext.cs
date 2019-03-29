@@ -60,7 +60,36 @@ namespace TicketVendor.Data
                TicketType = "Standing",
                TicketsAvailable = 5000
 
-           });
+           },
+
+            new TicketVendor
+            {
+                TicketID = 4,
+                Act = "Coldplay",
+                Venue = "3 Arena",
+                Date = new DateTime(2019, 11, 20),
+                Cost = 50,
+                EventTitle = "Coldplay: 3 Arena",
+                EventDescription = "Coldplay live at 3 Arena 20th November 2019",
+                TicketType = "Standing",
+                TicketsAvailable = 0
+
+            },
+
+            new TicketVendor
+            {
+                TicketID = 5,
+                Act = "Daft Punk",
+                Venue = "3 Arena",
+                Date = new DateTime(2020, 2, 15),
+                Cost = 30,
+                EventTitle = "Daft Punk: 3 Arena",
+                EventDescription = "Daft Punk live at 3 Arena 20th November 2019",
+                TicketType = "Standing",
+                TicketsAvailable = 10
+
+            }
+            );
         }
 
 

@@ -15,7 +15,7 @@ namespace TicketVendor.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.3-rtm-32065")
+                .HasAnnotation("ProductVersion", "2.1.2-rtm-30932")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -53,7 +53,9 @@ namespace TicketVendor.Migrations
                     b.HasData(
                         new { TicketID = 1, Act = "Foals", Cost = 60.0, Date = new DateTime(2019, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), EventDescription = "Foals live at trinity college 1st June 2019", EventTitle = "Foals: Trinity College", TicketType = "Standing", TicketsAvailable = 5000, Venue = "Trinity College" },
                         new { TicketID = 2, Act = "Vampire Weekend", Cost = 55.0, Date = new DateTime(2019, 6, 2, 0, 0, 0, 0, DateTimeKind.Unspecified), EventDescription = "Vampire Weekend live at trinity college 2nd June 2019", EventTitle = "Foals: Trinity College", TicketType = "Standing", TicketsAvailable = 5000, Venue = "Trinity College" },
-                        new { TicketID = 3, Act = "Janelle Monae", Cost = 50.0, Date = new DateTime(2019, 6, 3, 0, 0, 0, 0, DateTimeKind.Unspecified), EventDescription = "Janelle Monae live at trinity college 3rd June 2019", EventTitle = "Janelle Monae: Trinity College", TicketType = "Standing", TicketsAvailable = 5000, Venue = "Trinity College" }
+                        new { TicketID = 3, Act = "Janelle Monae", Cost = 50.0, Date = new DateTime(2019, 6, 3, 0, 0, 0, 0, DateTimeKind.Unspecified), EventDescription = "Janelle Monae live at trinity college 3rd June 2019", EventTitle = "Janelle Monae: Trinity College", TicketType = "Standing", TicketsAvailable = 5000, Venue = "Trinity College" },
+                        new { TicketID = 4, Act = "Coldplay", Cost = 50.0, Date = new DateTime(2019, 11, 20, 0, 0, 0, 0, DateTimeKind.Unspecified), EventDescription = "Coldplay live at 3 Arena 20th November 2019", EventTitle = "Coldplay: 3 Arena", TicketType = "Standing", TicketsAvailable = 0, Venue = "3 Arena" },
+                        new { TicketID = 5, Act = "Daft Punk", Cost = 30.0, Date = new DateTime(2020, 2, 15, 0, 0, 0, 0, DateTimeKind.Unspecified), EventDescription = "Daft Punk live at 3 Arena 20th November 2019", EventTitle = "Daft Punk: 3 Arena", TicketType = "Standing", TicketsAvailable = 10, Venue = "3 Arena" }
                     );
                 });
 #pragma warning restore 612, 618

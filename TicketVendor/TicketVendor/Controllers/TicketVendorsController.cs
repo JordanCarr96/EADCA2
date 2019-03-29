@@ -65,6 +65,25 @@ namespace TicketVendor.Controllers
         {
               return _context.Tickets.Where(e => e.Venue.ToUpper() == venue.ToUpper());                 
         }
+
+        [HttpGet ("dates")]
+        public IEnumerable<TicketVendor> GetDate()
+        {
+            DateTime startDate = DateTime.Now;
+            DateTime endDate = startDate.AddMonths(3);
+            return _context.Tickets.Where(e => e.Date <= endDate);
+
+            
+
+        }
+
+        [HttpGet("available")]
+        public IEnumerable<TicketVendor> GetTicketsAvailable()
+        {
+            return _context.Tickets.Where(e => e.TicketsAvailable > 0);
+        }
+
+        
         /*
                 // PUT: api/TicketVendors/5
                 [HttpPut("{id}")]

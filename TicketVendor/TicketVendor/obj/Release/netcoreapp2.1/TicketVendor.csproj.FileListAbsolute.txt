@@ -1,0 +1,15 @@
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\bin\Release\netcoreapp2.1\TicketVendor.deps.json
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\bin\Release\netcoreapp2.1\TicketVendor.runtimeconfig.json
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\bin\Release\netcoreapp2.1\TicketVendor.runtimeconfig.dev.json
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\bin\Release\netcoreapp2.1\TicketVendor.dll
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\bin\Release\netcoreapp2.1\TicketVendor.pdb
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\obj\Release\netcoreapp2.1\TicketVendor.csprojAssemblyReference.cache
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\obj\Release\netcoreapp2.1\TicketVendor.csproj.CoreCompileInputs.cache
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\obj\Release\netcoreapp2.1\TicketVendor.RazorAssemblyInfo.cache
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\obj\Release\netcoreapp2.1\TicketVendor.RazorAssemblyInfo.cs
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\obj\Release\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\obj\Release\netcoreapp2.1\TicketVendor.AssemblyInfoInputs.cache
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\obj\Release\netcoreapp2.1\TicketVendor.AssemblyInfo.cs
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\obj\Release\netcoreapp2.1\TicketVendor.RazorTargetAssemblyInfo.cache
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\obj\Release\netcoreapp2.1\TicketVendor.dll
+C:\Users\X00127091\Downloads\TicketVendor-20190328T102042Z-001\TicketVendor\TicketVendor\obj\Release\netcoreapp2.1\TicketVendor.pdb

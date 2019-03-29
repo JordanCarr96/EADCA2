@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2026
+VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketVendor", "TicketVendor\TicketVendor.csproj", "{E9787741-69AC-4734-BD81-F2CB4B1E2354}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketVendor", "TicketVendor\TicketVendor.csproj", "{29261583-C293-4D92-979F-4454E2DED206}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E9787741-69AC-4734-BD81-F2CB4B1E2354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E9787741-69AC-4734-BD81-F2CB4B1E2354}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E9787741-69AC-4734-BD81-F2CB4B1E2354}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E9787741-69AC-4734-BD81-F2CB4B1E2354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29261583-C293-4D92-979F-4454E2DED206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29261583-C293-4D92-979F-4454E2DED206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29261583-C293-4D92-979F-4454E2DED206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29261583-C293-4D92-979F-4454E2DED206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8F061490-FBBF-49A6-A84E-5145A14B1821}
+		SolutionGuid = {B3E104EC-28C8-4497-AC80-DC5AB451CAA7}
 	EndGlobalSection
 EndGlobal

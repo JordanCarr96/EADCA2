@@ -30,6 +30,7 @@ namespace TicketVendor
             services.AddMvc();
             services.AddDbContext<TicketVendorContext>(options =>
                    options.UseSqlServer(Configuration.GetConnectionString("TicketVendorContext")));
+          //  services.BuildServiceProvider().GetService< TicketVendorContext>().Database.Migrate();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
