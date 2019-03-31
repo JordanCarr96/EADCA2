@@ -11686,11 +11686,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jorda\\OneDrive\\Desktop\\TicketVendor\\TicketVendor\\TicketVendor.csproj",
+      "projectUniqueName": "C:\\Users\\jorda\\OneDrive\\Desktop\\EADCA2\\TicketVendor\\TicketVendor\\TicketVendor.csproj",
       "projectName": "TicketVendor",
-      "projectPath": "C:\\Users\\jorda\\OneDrive\\Desktop\\TicketVendor\\TicketVendor\\TicketVendor.csproj",
+      "projectPath": "C:\\Users\\jorda\\OneDrive\\Desktop\\EADCA2\\TicketVendor\\TicketVendor\\TicketVendor.csproj",
       "packagesPath": "C:\\Users\\jorda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jorda\\OneDrive\\Desktop\\TicketVendor\\TicketVendor\\obj\\",
+      "outputPath": "C:\\Users\\jorda\\OneDrive\\Desktop\\EADCA2\\TicketVendor\\TicketVendor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -15,18 +15,36 @@ namespace TicketVendorApp
         {
             InitializeComponent();
 
-            GetTickets();
+           
         }
 
-        private async void GetTickets()
+        private async void GetAll_Click(object sender, EventArgs args)
         {
-            HttpClient client = new HttpClient();
+            await Navigation.PushAsync(new GetData());
 
-           var response = await client.GetStringAsync("https://ticketvendor.azurewebsites.net/api/tickets");
+        }
 
-            var tickets = JsonConvert.DeserializeObject<List<TicketVendor>>(response);
+        private async void GetAct_Click(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new GetDataByAct());
 
-            TicketsListView.ItemsSource = tickets;
+        }
+
+        private async void GetVenue_Click(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new GetDataByVenue());
+
+        }
+
+        private async void GetSoon_Click(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new GetComingSoon());
+
+        }
+
+        private async void GetAvailable_Click(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new GetTicketsAvailable());
 
         }
     }

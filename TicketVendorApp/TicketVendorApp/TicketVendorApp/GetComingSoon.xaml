@@ -3,10 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TicketVendorApp.GetComingSoon">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ListView x:Name="TicketsListComingSoon">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" HeightRequest="50" BackgroundColor="White" Padding="5">
+                            <StackLayout Spacing="0" BackgroundColor="White" Orientation="Horizontal" HorizontalOptions="Start">
+                                <Label Text="{Binding Act}" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
+                            </StackLayout>
+
+                            <StackLayout Spacing="0" BackgroundColor="White" Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                <Label Text="€" TextColor="Black"  VerticalOptions="Center"></Label>
+                                <Label Text=" {Binding Cost}" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+
+        </ListView>
     </ContentPage.Content>
 </ContentPage>

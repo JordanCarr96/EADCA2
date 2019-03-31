@@ -2,27 +2,49 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:TicketVendorApp"
-             x:Class="TicketVendorApp.MainPage">
+             x:Class="TicketVendorApp.MainPage"
+             xmlns:translator="clr-namespace:TicketVendorApp.Helpers">
+    <ScrollView>
+        <StackLayout>
+            <StackLayout  Orientation="Horizontal"  Padding="5" >
+                <Label  Text="{translator:Translate GetAllMessage}"></Label>
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal"  Padding="5">
+                <Button Text="{translator:Translate ButtonClickMessage}" Clicked="GetAll_Click" />
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal"  Padding="5" >
+                <Label  Text="{translator:Translate GetActMessage}"></Label>
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal"  Padding="5">
+                <Button Text="{translator:Translate ButtonClickMessage}" Clicked="GetAct_Click" />
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal"  Padding="5">
+                <Label Text="{translator:Translate GetVenueMessage}"></Label>
 
-    <ListView x:Name="TicketsListView">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                  <StackLayout Orientation="Horizontal" HeightRequest="50" BackgroundColor="White" Padding="5">
-                    <StackLayout Spacing="0" BackgroundColor="White" Orientation="Horizontal" HorizontalOptions="Start">
-                      <Label Text="{Binding Act}" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
-                    </StackLayout>
+            </StackLayout>
 
-                    <StackLayout Spacing="0" BackgroundColor="White" Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                      <Label Text="€" TextColor="Black"  VerticalOptions="Center"></Label>
-                      <Label Text=" {Binding Cost}" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
-                    </StackLayout>
-                  </StackLayout>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+            <StackLayout Orientation="Horizontal"  Padding="5">
+                <Button Text="{translator:Translate ButtonClickMessage}" Clicked="GetVenue_Click" />
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal"  Padding="5">
+                <Label Text="{translator:Translate GetSoonMessage}"></Label>
 
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"  Padding="5">
+                <Button Text="{translator:Translate ButtonClickMessage}" Clicked="GetSoon_Click" />
+            </StackLayout>
+
+            <StackLayout  Orientation="Horizontal"  Padding="5">
+                <Label Text="{translator:Translate GetAvailableMessage}"></Label>
+            </StackLayout>
+
+            <StackLayout  Orientation="Horizontal"  Padding="5">
+                <Button Text="{translator:Translate ButtonClickMessage}" Clicked="GetAvailable_Click" />
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
 
 

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TicketVendorApp.GetDataByAct"
+             xmlns:translator="clr-namespace:TicketVendorApp.Helpers">
+    <ContentPage.Content>
+
+        <StackLayout VerticalOptions="Start" HorizontalOptions="FillAndExpand" Spacing="20" >
+            <Label Text="{translator:Translate GetActMessage}" TextColor="Black"
+             HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+
+            <StackLayout Orientation="Horizontal"  Padding="5">
+                <StackLayout Spacing="0" Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                    <Entry  x:Name="act" Placeholder="{translator:Translate ButtonSearchMessage}" WidthRequest="160" HeightRequest="40" HorizontalOptions="StartAndExpand" VerticalOptions="Center" />
+                    <Button Clicked="GetAct_Click" TextColor="Black" Text="{translator:Translate ButtonSearchMessage}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" />
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Spacing="0" Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                <Label x:Name="actlabel" />
+            </StackLayout>
+
+            <StackLayout  Orientation="Horizontal" HeightRequest="50"  Padding="5">
+                    <StackLayout Spacing="0" Orientation="Horizontal" HorizontalOptions="Start">
+                    <Label x:Name="GetTicketDescription" Text="" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
+                    </StackLayout>
+
+                    <StackLayout Spacing="0" Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+             
+                    <Label x:Name="GetTicketCost" Text="€" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
+                    </StackLayout>
+                </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

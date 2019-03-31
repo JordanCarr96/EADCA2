@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "d9a4511608ce588bb4253b8d4e1c01583234a90e"
+    "signature": "98fcf0c7878673d67ed43f6cffc4f95aa40ffacd"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,10 +11,16 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.1",
+          "Plugin.Multilingual": "1.0.2",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "runtime": {
           "TicketVendorApp.dll": {}
+        },
+        "resources": {
+          "ar/TicketVendorApp.resources.dll": {
+            "locale": "ar"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -28,6 +34,21 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "12.0.0.0",
             "fileVersion": "12.0.1.22727"
+          }
+        }
+      },
+      "Plugin.Multilingual/1.0.2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Multilingual.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.0/Plugin.Multilingual.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -75,6 +96,13 @@
       "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "path": "newtonsoft.json/12.0.1",
       "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
+    "Plugin.Multilingual/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aDPTIQCOCGxCvcFs98nSswcFTHfHUpUSiSltobV5NoRELUQREl4n95dLZSuqey9cIb5G2Ni53YDG6KCnD9ZWYw==",
+      "path": "plugin.multilingual/1.0.2",
+      "hashPath": "plugin.multilingual.1.0.2.nupkg.sha512"
     },
     "Xamarin.Forms/3.4.0.1008975": {
       "type": "package",
