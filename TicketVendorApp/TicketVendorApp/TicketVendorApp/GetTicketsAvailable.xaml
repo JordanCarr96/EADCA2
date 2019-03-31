@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TicketVendorApp.GetTicketsAvailable">
     <ContentPage.Content>
-        <ListView x:Name="TicketsListAvailable">
+        <ListView x:Name="TicketsListAvailable" AutomationId="GetAvailableView">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -12,6 +12,9 @@
                                 <Label Text="{Binding Act}" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
                             </StackLayout>
 
+                            <StackLayout Spacing="0" BackgroundColor="White" Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                <Label Text=" {Binding TicketsAvailable}" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
+                            </StackLayout>
                             <StackLayout Spacing="0" BackgroundColor="White" Orientation="Horizontal" HorizontalOptions="EndAndExpand">
                                 <Label Text="€" TextColor="Black"  VerticalOptions="Center"></Label>
                                 <Label Text=" {Binding Cost}" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>

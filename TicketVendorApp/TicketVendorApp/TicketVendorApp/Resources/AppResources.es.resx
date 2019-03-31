@@ -117,25 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ButtonClickMessage" xml:space="preserve">
-    <value>Hacer clic</value>
-  </data>
-  <data name="ButtonSearchMessage" xml:space="preserve">
-    <value>Buscar</value>
-  </data>
-  <data name="GetActMessage" xml:space="preserve">
-    <value>Búsqueda por ley</value>
-  </data>
   <data name="GetAllMessage" xml:space="preserve">
-    <value>Obtener todas las entradas</value>
-  </data>
-  <data name="GetAvailableMessage" xml:space="preserve">
-    <value>Consigue entradas disponibles</value>
-  </data>
-  <data name="GetSoonMessage" xml:space="preserve">
-    <value>Obtenga boletos que vienen en los próximos 3 meses</value>
-  </data>
-  <data name="GetVenueMessage" xml:space="preserve">
-    <value>Buscar por lugar</value>
+    <value>الحصول على جميع التذاكر</value>
   </data>
 </root>

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TicketVendorApp.GetData">
     <ContentPage.Content>
-        <ListView x:Name="TicketsListView">
+        <ListView x:Name="TicketsListView" AutomationId="GetAllView">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

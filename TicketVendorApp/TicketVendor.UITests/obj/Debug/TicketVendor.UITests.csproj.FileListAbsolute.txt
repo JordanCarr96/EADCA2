@@ -1,0 +1,8 @@
+C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendor.UITests\bin\Debug\TicketVendor.UITests.dll
+C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendor.UITests\bin\Debug\TicketVendor.UITests.pdb
+C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendor.UITests\bin\Debug\nunit.framework.dll
+C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendor.UITests\bin\Debug\Xamarin.UITest.dll
+C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendor.UITests\obj\Debug\TicketVendor.UITests.csproj.CoreCompileInputs.cache
+C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendor.UITests\obj\Debug\TicketVendor.UITests.csproj.CopyComplete
+C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendor.UITests\obj\Debug\TicketVendor.UITests.dll
+C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendor.UITests\obj\Debug\TicketVendor.UITests.pdb

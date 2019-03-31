@@ -37,7 +37,6 @@ namespace TicketVendorApp
             var ticket = JsonConvert.DeserializeObject<TicketVendor>(response);
 
             GetTicketDescription.Text = ticket.EventDescription.ToString();
-            GetTicketCost.Text = ticket.Cost.ToString();
 
         }
     }

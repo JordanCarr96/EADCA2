@@ -220,8 +220,6 @@ C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendorApp\TicketVen
 C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendorApp\TicketVendorApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendorApp\TicketVendorApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendorApp\TicketVendorApp.Android\bin\Debug\es\TicketVendorApp.resources.dll
-C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendorApp\TicketVendorApp\bin\Debug\netstandard2.0\TicketVendorApp.dll
-C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendorApp\TicketVendorApp.Android\bin\Debug\TicketVendorApp.dll.mdb
 C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendorApp\TicketVendorApp.Android\obj\Debug\81\linksrc\Plugin.Multilingual.Abstractions.dll.mdb
 C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendorApp\TicketVendorApp.Android\obj\Debug\81\linksrc\Plugin.Multilingual.dll.mdb
 C:\Users\jorda\OneDrive\Desktop\EADCA2\TicketVendorApp\TicketVendorApp\TicketVendorApp.Android\obj\Debug\81\linksrc\TicketVendorApp.dll.mdb

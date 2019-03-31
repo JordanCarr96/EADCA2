@@ -23,13 +23,9 @@
 
             <StackLayout  Orientation="Horizontal" HeightRequest="50"  Padding="5">
                     <StackLayout Spacing="0" Orientation="Horizontal" HorizontalOptions="Start">
-                    <Label x:Name="GetTicketDescription" Text="" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
+                    <Label x:Name="GetTicketDescription" AutomationId="ActText" Text="" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
                     </StackLayout>
 
-                    <StackLayout Spacing="0" Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-             
-                    <Label x:Name="GetTicketCost" Text="€" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
-                    </StackLayout>
                 </StackLayout>
         </StackLayout>
     </ContentPage.Content>

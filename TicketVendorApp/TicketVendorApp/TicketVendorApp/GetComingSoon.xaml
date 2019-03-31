@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TicketVendorApp.GetComingSoon">
     <ContentPage.Content>
-        <ListView x:Name="TicketsListComingSoon">
+        <ListView x:Name="TicketsListComingSoon" AutomationId="GetSoonView">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -12,6 +12,9 @@
                                 <Label Text="{Binding Act}" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
                             </StackLayout>
 
+                            <StackLayout Spacing="0" BackgroundColor="White" Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                <Label Text=" {Binding Date}" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
+                            </StackLayout>
                             <StackLayout Spacing="0" BackgroundColor="White" Orientation="Horizontal" HorizontalOptions="EndAndExpand">
                                 <Label Text="€" TextColor="Black"  VerticalOptions="Center"></Label>
                                 <Label Text=" {Binding Cost}" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>

@@ -5,18 +5,19 @@
              x:Class="TicketVendorApp.MainPage"
              xmlns:translator="clr-namespace:TicketVendorApp.Helpers">
     <ScrollView>
+
         <StackLayout>
             <StackLayout  Orientation="Horizontal"  Padding="5" >
                 <Label  Text="{translator:Translate GetAllMessage}"></Label>
             </StackLayout>
             <StackLayout  Orientation="Horizontal"  Padding="5">
-                <Button Text="{translator:Translate ButtonClickMessage}" Clicked="GetAll_Click" />
+                <Button AutomationId="GetAllButton" Text="{translator:Translate ButtonClickMessage}" Clicked="GetAll_Click" />
             </StackLayout>
             <StackLayout  Orientation="Horizontal"  Padding="5" >
                 <Label  Text="{translator:Translate GetActMessage}"></Label>
             </StackLayout>
             <StackLayout  Orientation="Horizontal"  Padding="5">
-                <Button Text="{translator:Translate ButtonClickMessage}" Clicked="GetAct_Click" />
+                <Button AutomationId="GetActButton" Text="{translator:Translate ButtonClickMessage}" Clicked="GetAct_Click" />
             </StackLayout>
             <StackLayout  Orientation="Horizontal"  Padding="5">
                 <Label Text="{translator:Translate GetVenueMessage}"></Label>
@@ -24,7 +25,7 @@
             </StackLayout>
 
             <StackLayout Orientation="Horizontal"  Padding="5">
-                <Button Text="{translator:Translate ButtonClickMessage}" Clicked="GetVenue_Click" />
+                <Button AutomationId="GetVenueButton" Text="{translator:Translate ButtonClickMessage}" Clicked="GetVenue_Click" />
             </StackLayout>
             <StackLayout  Orientation="Horizontal"  Padding="5">
                 <Label Text="{translator:Translate GetSoonMessage}"></Label>
@@ -32,7 +33,7 @@
             </StackLayout>
 
             <StackLayout Orientation="Horizontal"  Padding="5">
-                <Button Text="{translator:Translate ButtonClickMessage}" Clicked="GetSoon_Click" />
+                <Button AutomationId="GetSoonButton" Text="{translator:Translate ButtonClickMessage}" Clicked="GetSoon_Click" />
             </StackLayout>
 
             <StackLayout  Orientation="Horizontal"  Padding="5">
@@ -40,7 +41,7 @@
             </StackLayout>
 
             <StackLayout  Orientation="Horizontal"  Padding="5">
-                <Button Text="{translator:Translate ButtonClickMessage}" Clicked="GetAvailable_Click" />
+                <Button AutomationId="GetAvailableButton" Text="{translator:Translate ButtonClickMessage}" Clicked="GetAvailable_Click" />
             </StackLayout>
 
         </StackLayout>

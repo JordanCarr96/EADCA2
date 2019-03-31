@@ -19,18 +19,13 @@
             <StackLayout Spacing="0" Orientation="Horizontal" HorizontalOptions="StartAndExpand">
                 <Label x:Name="venuelabel" />
             </StackLayout>
-            <ListView x:Name="TicketsListByVenue">
+            <ListView x:Name="TicketsListByVenue" AutomationId="GetVenueView">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Orientation="Horizontal" HeightRequest="50" BackgroundColor="White" Padding="5">
                                 <StackLayout Spacing="0" BackgroundColor="White" Orientation="Horizontal" HorizontalOptions="Start">
                                     <Label Text="{Binding EventDescription}" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
-                                </StackLayout>
-
-                                <StackLayout Spacing="0" BackgroundColor="White" Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                    <Label Text="€" TextColor="Black"  VerticalOptions="Center"></Label>
-                                    <Label Text=" {Binding Cost}" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
                                 </StackLayout>
                             </StackLayout>
                         </ViewCell>
